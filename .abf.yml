@@ -1,4 +1,5 @@
 removed_sources:
   tables-2.4.0.tar.gz: 09374a53bf1cb2162c5224d684455b0f008e67b8
-sources:
   tables-3.0.0.tar.gz: 0551bcb40cbb927efd74ba290a0ef4881dd18021
+sources:
+  tables-3.1.1.tar.gz: c1ff909112b69b38b744cf81381496173c85c8af
