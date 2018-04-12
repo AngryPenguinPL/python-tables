@@ -2,7 +2,7 @@
 
 Summary: 	Hierarchical datasets in Python
 Name: 	 	python-%{module}
-Version: 	3.2.2
+Version: 	3.4.2
 Release: 	1
 Source0: 	https://pypi.python.org/packages/source/t/%{module}/%{module}-%{version}.tar.gz
 License: 	BSD
