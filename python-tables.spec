@@ -4,7 +4,7 @@ Summary: 	Hierarchical datasets in Python
 Name: 	 	python-%{module}
 Version: 	3.4.2
 Release: 	1
-Source0: 	https://pypi.python.org/packages/source/t/tables/tables-%{version}.tar.gz
+Source0: 	https://pypi.python.org/packages/source/t/PyTables/PyTables-%{version}.tar.gz
 License: 	BSD
 Group: 	 	Development/Python
 Url: 	 	http://www.pytables.org
@@ -47,7 +47,7 @@ The %{name}-doc package contains the documentation related to
 PyTables.
 
 %prep 
-%setup -qn %{module}-%{version}
+%setup -qn PyTables-%{version}
 
 find utils -name 'pt*' | xargs sed -i '1s|^#!/usr/bin/env python|#!python3|'
 
