@@ -23,6 +23,7 @@ BuildRequires:	python-sphinx
 BuildRequires:	pkgconfig(lapack)
 #BuildRequires:  mock
 BuildRequires:  python-minimock
+BuildRequires:  python-mock
 
 %rename python-pytables
 %rename	python3-tables
