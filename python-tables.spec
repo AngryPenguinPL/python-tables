@@ -21,7 +21,7 @@ BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-sphinx
 BuildRequires:	pkgconfig(lapack)
-#BuildRequires:  mock
+BuildRequires:  mock
 BuildRequires:  python-minimock
 BuildRequires:  python-mock
 
