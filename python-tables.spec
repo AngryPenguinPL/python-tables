@@ -1,6 +1,6 @@
-%define module	tables
+%define module tables
 
-Summary: 	Hierarchical datasets in Python
+Summary:  Hierarchical datasets in Python
 Name: 	 	python-%{module}
 Version: 	3.4.2
 Release: 	1
@@ -21,6 +21,8 @@ BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-sphinx
 BuildRequires:	pkgconfig(lapack)
+BuildRequires:  mock
+
 %rename python-pytables
 %rename	python3-tables
 
